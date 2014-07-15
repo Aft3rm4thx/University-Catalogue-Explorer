@@ -1,0 +1,56 @@
+a:link {color:#FF0000;}    	/*unvisited*/
+a:visited {color:#FFFFFF;} 	/*visited*/
+a:hover {color:#3399FF;} 		/*mouseover*/
+a:active {color:#1919D1;} 		/*selected*/
+
+body 
+{
+background-image:url("images/background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color:#FFFFFF;
+font-family:"Century Gothic";
+/*  cursor:wait;     */
+}
+
+ul
+{
+width: 570px;
+padding:15px;
+margin: 0px auto 0px auto;
+border-top: 2px solid #FFFFFF;
+border-bottom: 1px solid #FFFFFF;
+text-align: center;
+}
+ul.pp
+{
+border-top:#000000;
+}
+
+li 
+{
+display: inline;
+margin: 0px 3px;
+}
+
+p
+{
+width: 500px;
+border: 2px solid #0088dd;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+}
+p.intro
+{
+margin-left:600px;
+}
+p.ps
+{
+margin-left: 750px;
+width:1000px;
+}
+p.pd
+{
+width:1150px;
+}
